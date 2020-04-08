@@ -13,13 +13,19 @@ body{
     left: 45%;
     right: 45%;
 }
+p{
+    opacity: 1;
+}
+h1{
+    opacity: 1;
+}
 #main{
-    background-color: lightblue;
-    -webkit-box-shadow: 0px 0px 131px 23px rgba(0,0,0,0.63);
--moz-box-shadow: 0px 0px 131px 23px rgba(0,0,0,0.63);
-box-shadow: 0px 0px 131px 23px rgba(0,0,0,0.63);
-opacity: 0.3;
+    opacity: 0.3;
 }
 #main:hover{
+    -webkit-box-shadow: 0px 0px 131px 23px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 0px 131px 23px rgba(0,0,0,0.63);
+    box-shadow: 0px 0px 131px 23px rgba(0,0,0,0.63);
+    background-color: lightgrey;
     opacity: 1;
 }
