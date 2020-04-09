@@ -4,11 +4,11 @@
 }
 #welcome{
     color: white;
-    font-size: 15em;
+    font-size: 14vw;
     position:fixed;
     top: 20%;
     bottom: 10%;
-    left: 25%;
+    left: 23%;
     right: 50%;
 
 }
@@ -18,6 +18,35 @@
     left: 47%;
     right: 46.5%;
 }
+
+/*idk if i wanna keep this*/
+.container {
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+
+.container:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(3px);
+    margin: -20px;
+}
+
+
+
 #links{
     background-color:rgba(226, 152, 237, 0.9);
     height: 100%;
