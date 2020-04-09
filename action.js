@@ -3,7 +3,7 @@ function reduce() {
     if(click==0){
     var a = document.getElementById("welcome");
     var top=150;
-    a.style.fontSize='2em';
+    a.style.fontSize='200%';
     a.style.top='20%';
     a.style.bottom='80%';
     a.style.left='47%';
