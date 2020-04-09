@@ -4,19 +4,22 @@
 <head>
     <title>Welcome</title>
     <link rel="stylesheet" href="style.css">
+    <script src="action.js"></script>
 
 </head>
 
 <body>
+    
     <div id="main">
-        <h1 id="welcome">Welcome</h1>
-        <p><a title="about" href="about.html">About</a></p>
-        <p><a title="manga" href="manga.html">Manga List</a></p>
-        <p><a title="anime" href="anime.html">Anime List</a></p>
-        <a target="_blank" title="twitter" href="https://twitter.com/Hopeless_Denvy">
-            <img id="twitter" src="images\twitter.png" alt="Italian Trulli">
+        <p><a class="link" title="about" href="about.html">About</a></p>
+        <p><a class="link" title="manga" href="manga.html">Manga List</a></p>
+        <p><a class="link" title="anime" href="anime.html">Anime List</a></p>
+        <a target="_blank" id="link" title="twitter" href="https://twitter.com/Hopeless_Denvy">
+            <img class="link" id="twitter" src="images\twitter.png" alt="twitter">
         </a>
     </div>
+    <h1 id="welcome" onclick="reduce()">Welcome</h1>
+
 </body>
 
 </html>
